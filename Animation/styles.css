@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    perspective: 1000px;
+}
+
+.navigation {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+
+.left-nav {
+    width: 70%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 2vw;
+}
+
+.left-nav h1 {
+    margin: 0 2vw;
+    color: white;
+}
+
+.right-nav {
+    width: 30%;
+    height: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+button {
+    padding: .8vw 1.2vw;
+    font-size: .9vw;
+    margin: 0 1vw;
+    border: none;
+    border-radius: 50px;
+    background-color: salmon;
+    color: white;
+}
+
+.mid {
+    height: calc(100% - 100px);
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    margin: 1.5vw 2vw;
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+    background-color: #909090;
+    /* margin-left: 25%;
+    margin-top: 5%; */
+    margin: 1vw auto;
+    perspective: 800px;
+    /* transform: rotatey(80deg); */
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    /* transform: translateX(-50%); */
+    /* transform: translateY(-50%); */
+    /* transform: translateZ(50%); */
+    /* transform: translate(50%, 50%); */
+
+    /* transform: rotateX(30deg); */
+    /* transform: rotateY(-30deg); */
+    /* transform: rotateZ(30deg); */
+    /* transform: rotate(30deg); */
+
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scaleZ(2); */
+    /* transform: scale(1.2); */
+
+    /* transform: skewX(30deg); */
+    /* transform: skewY(30deg); */
+    /* transform: skew(50deg); */
+}
